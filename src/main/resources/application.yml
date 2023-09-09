@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/github_db
+    username: e.amini
+    password: root
+    driver-class-name: org.postgresql.Driver
+server:
+  error:
+    include-message: always
